@@ -68,9 +68,9 @@ onMounted(() => {
             <TheFilter />
           </div>
           <div class="social-icons">
-            <NuxtImg src="/images/whatsapp.png" />
-            <NuxtImg src="/images/instagram.png" />
-            <NuxtImg src="/images/facebook.png" />
+              <!-- <NuxtImg src="/images/whatsapp.png" />-->
+              <a href="https://www.instagram.com/pickevent0/" target="_blank"><NuxtImg src="/images/instagram.png" /></a>
+              <a href="https://www.facebook.com/groups/ashdodfun" target="_blank"><NuxtImg src="/images/facebook.png" /></a>
           </div>
         </div>
       </div>

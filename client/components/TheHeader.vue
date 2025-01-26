@@ -34,7 +34,7 @@ function hideMobileMenu() {
               >פאנל ניהול</NuxtLink
             >
           </li>
-          <li><NuxtLink class="nav-link" to="/about-us">עלינו</NuxtLink></li>
+          <li><NuxtLink class="nav-link" to="/about-us">אודות</NuxtLink></li>
           <li>
             <NuxtLink class="nav-link" to="/events">רשימת אירועים</NuxtLink>
           </li>
@@ -62,6 +62,7 @@ function hideMobileMenu() {
           <ul @click="hideMobileMenu">
             <li><NuxtLink to="/about-us">עלינו</NuxtLink></li>
             <li><NuxtLink to="/events">רשימת אירועים</NuxtLink></li>
+            <li><NuxtLink to="/about-us">עלינו</NuxtLink></li>
             <li>
               <NuxtLink to="/create-event" class="create-event-link"
                 >צור אירוע</NuxtLink
@@ -76,9 +77,9 @@ function hideMobileMenu() {
         </div>
 
         <div class="mobile-social-icons">
-          <!--<NuxtImg src="/images/whatsapp.png" />-->
-          <a href=""><NuxtImg src="/images/instagram.png" /></a>
-          <a href=""><NuxtImg src="/images/facebook.png" /></a>
+            <!-- <NuxtImg src="/images/whatsapp.png" />-->
+            <a href="https://www.instagram.com/pickevent0/" target="_blank"><NuxtImg src="/images/instagram.png" /></a>
+            <a href="https://www.facebook.com/groups/ashdodfun" target="_blank"><NuxtImg src="/images/facebook.png" /></a>
         </div>
       </div>
     </nav>

@@ -50,9 +50,9 @@ async function sendSubscribeData() {
             עם Pickevent תהיו תמיד מעודכנים ותוכלו ליהנות מחוויית משתמש איכותית.
           </p>
           <div class="social-icons">
-            <NuxtImg src="/images/whatsapp.png" />
-            <NuxtImg src="/images/instagram.png" />
-            <NuxtImg src="/images/facebook.png" />
+            <!-- <NuxtImg src="/images/whatsapp.png" />-->
+            <a href="https://www.instagram.com/pickevent0/" target="_blank"><NuxtImg src="/images/instagram.png" /></a>
+            <a href="https://www.facebook.com/groups/ashdodfun" target="_blank"><NuxtImg src="/images/facebook.png" /></a>
           </div>
         </div>
 
@@ -65,6 +65,11 @@ async function sendSubscribeData() {
          <!-- <NuxtLink type="phone">
             <NuxtImg src="/images/phone.svg" />הטלפון שלנו</NuxtLink
           >-->
+        </div>
+        <div class="contacts">
+          <p>שימוש באתר</p>
+          <a href="/terms">תנאי שימוש</a>
+          <a href="/privacy">מדיניות הפרטיות</a>
         </div>
 
         <div class="mobile-social-icons">
@@ -167,7 +172,8 @@ footer {
           img {
             width: 30px;
             height: 30px;
-
+            margin-left: 10px;
+            
             &:not(:first-child) {
               margin-right: 15px;
             }
@@ -210,6 +216,7 @@ footer {
 
         a {
           display: block;
+          color: white;
 
           &:not(:first-child) {
             margin-top: 20px;

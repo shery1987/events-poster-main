@@ -23,8 +23,8 @@ useHead({
           <TheHeader />
           <div class="slide-content">
             <div class="banner-text">
-              <h2>אירועים</h2>
-              <p>למידע נוסף על אירועים</p>
+              <h2>מדיניות הפרטיות</h2>
+              <p>פרטיות וסודיות</p>
             </div>
 
             <div class="filter-social">
@@ -38,132 +38,100 @@ useHead({
         </div>
       </div>
     </div>
+    <div
+      class="content-wrapper content-padding"
+      data-v-inspector="pages/privacy.vue:43:7"
+      data-v-7f554ff8=""
+    >
+      <p><strong>מדיניות הפרטיות</strong></p>
 
-    <div class="about-us-block">
-      <div class="content-wrapper">
-        <div class="images-block">
-          <span class="dj">
-            <NuxtImg src="/images/about-us-block/dj.png" alt="dj" />
-          </span>
+      <p>פרטיות וסודיות</p>
 
-          <span class="concert">
-            <NuxtImg src="/images/about-us-block/concert.png" alt="concert" />
-          </span>
-
-          <span class="business-event">
-            <NuxtImg
-              src="/images/about-us-block/business-event.png"
-              alt="business-event"
-            />
-          </span>
-
-          <span class="asia-girl">
-            <NuxtImg
-              src="/images/about-us-block/asia-girl.png"
-              alt="asia-girl"
-            />
-          </span>
-        </div>
-
-        <div class="description-block">
-          <p class="pre-header-block">עלינו</p>
-          <h2>ברוכים הבאים לפלטפורמה המובילה לאירועים בעיר!</h2>
-          <p>כאן תמצאו את כל מה שמתרחש בעיר, במקום אחד נוח ומרכזי.</p>
-
-          <p>
-            אנו אוספים עבורכם מידע ממגוון רחב של מקורות ומוסדות עירוניים, כדי
-            שתהיו הראשונים לדעת על האירועים הכי חמים – מתערוכות ייחודיות, דרך
-            הופעות מרגשות ועד סדנאות מעשירות ופעילויות לכל המשפחה.
-          </p>
-
-          <span class="mobile-images-block">
-            <NuxtImg src="/images/about-us-block/dj.png" alt="dj" />
-          </span>
-
-          <span class="mobile-images-block mobile-concert">
-            <NuxtImg
-              src="/images/about-us-block/business-event.png"
-              alt="business-event"
-            />
-          </span>
-
-          <p>
-            עם מנוע חיפוש חכם ומתקדם, אתם במרחק קליק מלמצוא את האירועים שמתאימים
-            בדיוק לכם. חפשו לפי תאריך, מיקום או קהל יעד, וגילו את האפשרויות
-            האינסופיות שהעיר מציעה.
-          </p>
-          <p>
-            הצטרפו לאלפי המשתמשים שכבר הופכים את החיפוש אחר אירועים לחוויה מהנה
-            ומדויקת, ותבטיחו לעצמכם שלא תפספסו אף רגע חשוב. כי אצלנו, כל רגע הוא
-            הזדמנות לחוויה חדשה!
-          </p>
-
-          <div class="mobile-images-block">
-            <NuxtImg src="/images/about-us-block/concert.png" alt="concert" />
-          </div>
-
-          <span class="mobile-images-block">
-            <NuxtImg
-              src="/images/about-us-block/asia-girl.png"
-              alt="asia-girl"
-            />
-          </span>
-          <div class="btn-wrapper">
-            <NuxtLink class="link" to="/create-event"> קרא עוד </NuxtLink>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="additional-info-block">
-      <div class="content-wrapper">
-        <p class="pre-header-block">התרבות שלנו</p>
-        <h3>למידע נוסף על החברה שלנו</h3>
-
-        <div class="additional-info-content">
-          <div class="additional-info-block">
-            <div class="h5-img">
-              <div class="img-wrapper">
-                <NuxtImg src="/images/additional-info/darts.png" alt="darts" />
-              </div>
-              <h5>הקריירה שלנו</h5>
-            </div>
-            <p>
-              אנו אוספים עבורכם מידע ממגוון רחב של מקורות ומוסדות עירוניים, כדי
-              שתהיו הראשונים לדעת על האירועים הכי חמים – מתערוכות ייחודיות, דרך
-              הופעות מרגשות ועד סדנאות מעשירות ופעילויות לכל המשפחה.
-            </p>
-          </div>
-
-          <div class="additional-info-block">
-            <div class="h5-img">
-              <div class="img-wrapper">
-                <NuxtImg src="/images/additional-info/deal.png" alt="deal" />
-              </div>
-              <h5>הקריירה שלנו</h5>
-            </div>
-            <p>
-              אנו אוספים עבורכם מידע ממגוון רחב של מקורות ומוסדות עירוניים, כדי
-              שתהיו הראשונים לדעת על האירועים הכי חמים – מתערוכות ייחודיות, דרך
-              הופעות מרגשות ועד סדנאות מעשירות ופעילויות לכל המשפחה.
-            </p>
-          </div>
-
-          <div class="additional-info-block">
-            <div class="h5-img">
-              <div class="img-wrapper">
-                <NuxtImg src="/images/additional-info/team.png" alt="team" />
-              </div>
-              <h5>הקריירה שלנו</h5>
-            </div>
-            <p>
-              אנו אוספים עבורכם מידע ממגוון רחב של מקורות ומוסדות עירוניים, כדי
-              שתהיו הראשונים לדעת על האירועים הכי חמים – מתערוכות ייחודיות, דרך
-              הופעות מרגשות ועד סדנאות מעשירות ופעילויות לכל המשפחה.
-            </p>
-          </div>
-        </div>
-      </div>
+      <p class="section-title">1. פרטיות ושימוש במידע</p>
+      <p>
+        1.1 משתמש הקצה ו/או בית העסק מכיר בזאת שכל הדיונים, דירוגים, הערות,
+        שירות לוח המודעות, חדרי הצ'ט, תמונת הפרופיל, שם המשתמש והפעילות באתר
+        ו/או כל תשתיות הודעות ותקשורות באתר ("קהילות") הם פומביים ואינן תקשורות
+        פרטיות, ולכן צדדים שלישים רשאים לקרוא את התקשורות של משתמש הקצה ו/או בית
+        העסק וכן לצפות בתמונת הפרופיל, שם המשתמש והפעילות שביצע באתר מבלי
+        ידיעתו.
+      </p>
+      <p>
+        1.2 כל פרטיו האישיים של משתמש הקצה ו/או בית העסק (שם, תמונת הפרופיל,
+        דואר אלקטרוני וכדומה) שמסר משתמש הקצה ו/או בית העסק במסגרת רישומו לאתר
+        ושימושו באתר, ומידע שייאסף אודות דפוסי השימוש של משתמשי הקצה ו/או בתי
+        העסק, יישמרו במאגרי המידע של קבוצת
+        <span class="english">pickevent</span>.
+      </p>
+      <p>
+        1.3 <span class="english">pickevent</span> תהא רשאית להשתמש בפרטיו
+        האישיים של משתמש הקצה ו/או בית העסק ובמידע שתאסוף אודות דפוסי השימוש
+        שלהם באתר, בכפוף לכל דין, לרבות לצורך:
+      </p>
+      <ul>
+        <li>
+          1.3.1 העברת המידע לבית העסק לצורך הפעילות ו/או השירות נשוא רכישת
+          הכרטיסים בלבד.
+        </li>
+        <li>1.3.2 שיפור ותחזוקת השירותים, המידע והתכנים המוצעים באתר.</li>
+        <li>1.3.3 לשנות ו/או לבטל שירותים ותכנים הקיימים באתר.</li>
+        <li>1.3.4 מתן הודעות בקשר עם האתר והשימוש בו.</li>
+        <li>
+          1.3.5 ניתוח מידע סטטיסטי והצגתו ו/או מסירתו לצדדים שלישיים, ובלבד
+          שהמידע כאמור יהיה אנונימי.
+        </li>
+      </ul>
+      <p>
+        1.4 <span class="english">pickevent</span> לא תעשה כל שימוש בפרטים של
+        אמצעי התשלום של משתמש הקצה אלא לביצוע תשלום בגין עסקה אותה ביקש משתמש
+        הקצה לערוך, ופרטים אלו לא יועברו לאף גורם אחר זולת לצורך זה.
+      </p>
+      <p>
+        1.5 פרטי כרטיס האשראי אינם נשמרים במאגרי המידע של
+        <span class="english">pickevent</span>.
+      </p>
+      <p>
+        1.6 <span class="english">pickevent</span> לא תמכור ו/או תשכיר ו/או
+        תעביר את פרטיו האישיים של משתמש הקצה ו/או בית העסק, כפי שנמסרו לה על
+        ידם, כולם או חלקם, לצד שלישי כלשהו, למעט לגוף מסונף אליה.
+      </p>
+      <p>
+        1.7 <span class="english">pickevent</span> תהא רשאית להעביר פרטיו
+        האישיים של משתמש הקצה ו/או בית העסק לצד שלישי במקרים הבאים:
+      </p>
+      <ul>
+        <li>1.7.1 כאשר התקבלה הסכמת משתמש הקצה ו/או בית העסק.</li>
+        <li>
+          1.7.2 משתמש הקצה ו/או בית העסק ביצע מעשה או מחדל הפוגעים ו/או העלולים,
+          לפי שיקול דעתה הבלעדי של <span class="english">pickevent</span>, לפגוע
+          ב-<span class="english">pickevent</span> ו/או בצדדים שלישיים כלשהם.
+        </li>
+        <li>
+          1.7.3 במקרה שבו <span class="english">pickevent</span> תעביר בכל צורה
+          שהיא את פעילות האתר לתאגיד כלשהו וכן במקרה שתתמזג עם גוף אחר.
+        </li>
+      </ul>
+      <p>
+        1.8 פעילות האתר מבוצעת בסביבה מקוונת. לפיכך אין באפשרותה של
+        <span class="english">pickevent</span> להבטיח חסינות מוחלטת מפני חדירות
+        למחשביה או חשיפת המידע האגור בידי מבצעי פעולות בלתי חוקיות.
+      </p>
+      <p>
+        1.9 בקרות מקרים שאינם בשליטתה של
+        <span class="english">pickevent</span> ו/או הנובעים מכח עליון,
+        <span class="english">pickevent</span> לא תהא אחראית לכל נזק מכל סוג
+        שהוא, עקיף או ישיר.
+      </p>
+      <p>
+        1.10 <span class="english">pickevent</span> תהא רשאית לעשות שימוש ב –
+        "עוגיות" ("cookies") על מנת לספק למשתמש הקצה ו/או לבית העסק שירות מהיר
+        ויעיל.
+      </p>
+      <p>
+        1.11 משתמש הקצה יהיה ראשי לבקש שהמידע שנאסף אודותיו ימחק ממאגרי המידע של
+        קבוצת <span class="english">pickevent</span>, את הבקשה יש לשלוח למייל
+        info@pickevent.co.il.
+      </p>
     </div>
   </div>
 </template>
@@ -290,9 +258,16 @@ useHead({
       padding: 40px 0;
     }
 
+    .content-padding{
+      padding: 60px 0 0 0;
+    }
+
     .content-wrapper {
       display: flex;
       justify-content: space-between;
+      margin: 0 auto;
+      width: 1280px;
+      padding: 60px 0 0 0;
 
       @media (max-width: 768px) {
         flex-direction: column-reverse;
