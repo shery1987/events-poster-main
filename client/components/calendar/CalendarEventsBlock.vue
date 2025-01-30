@@ -150,7 +150,7 @@ function recordEventToStore(event) {
 
           .point-text {
             margin-right: 10px;
-            font-size: 14px;
+            font-size: 20px;
             font-weight: 600;
 
             @media (max-width: 1220px) {
@@ -183,8 +183,8 @@ function recordEventToStore(event) {
     .white-button {
       width: 48%;
       font-weight: 300;
-      font-size: 8px;
-      padding: 12px 0;
+      font-size: 15px;
+      padding: 8px 0;
       cursor: pointer;
       border-radius: 100px;
       text-align: center;

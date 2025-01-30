@@ -261,9 +261,9 @@ const isToday = (date) => {
               "
               class="number-of-events"
             >
-              <span class="purple-circle"></span>
-              {{ eventsForDay[dayObj.date.format("YYYY-MM-DD")].length }}
-              אירועים
+              <!--<span class="purple-circle"></span>-->
+              {{ eventsForDay[dayObj.date.format("YYYY-MM-DD")].length }}  
+              &#x1F389;
             </span>
           </div>
 

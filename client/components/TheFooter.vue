@@ -59,7 +59,7 @@ async function sendSubscribeData() {
         <div class="contacts">
           <p>צור קשר</p>
           <NuxtLink type="email">
-            <a href="mailto:info@pickevent.co.il">
+            <a href="mailto:info@pickevent.co.il" target="_blank">
               <NuxtImg src="/images/envelope.svg" />האימייל שלנו
             </a></NuxtLink>
          <!-- <NuxtLink type="phone">
